@@ -35,3 +35,65 @@ section {
 
 
 /* .........NAVBAR END........... */
+
+
+/* .........NAVBAR END........... */
+
+
+
+/* ......FIRST SECTION START...... */
+
+.top-banner {
+    height: 750px;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    overflow: hidden;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+#hello {
+    color: #0070F7;
+    font-size: 45px;
+}
+
+#name {
+    color: #002540;
+    font-size: 50px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+h2 {
+    font-size: 40px;
+    color: #353537;
+}
+
+#veteran {
+    margin-top: 64px;
+    margin-bottom: 20px;
+    color: dimgray;
+}
+
+#veteran-2 {
+    color: dimgray;
+    margin-bottom: 20px;
+}
+
+.link-button {
+    text-decoration: none;
+    background: linear-gradient(135deg,deeppink, orange);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+/* ..........FIRST SECTION END.............. */
