@@ -123,7 +123,6 @@ h2 {
     height: 400px;
     margin: 0px auto;
     text-align: center;
-    overflow: hidden;
 }
 
 .left img {
@@ -144,7 +143,7 @@ h2 {
     background-color: white;
     padding: 15px;
     border-radius: 20px;
-    box-shadow: 2px 4px 10px gray
+    box-shadow: 2px 4px 30px gray
 }
 
 .center {
@@ -153,7 +152,7 @@ h2 {
     background-color: white;
     padding: 15px;
     border-radius: 20px;
-    box-shadow: 2px 4px 10px gray
+    box-shadow: 2px 4px 30px gray
 }
 
 .right {
@@ -162,7 +161,7 @@ h2 {
     background-color: white;
     padding: 15px;
     border-radius: 20px;
-    box-shadow: 2px 4px 10px gray
+    box-shadow: 2px 4px 30px gray
 }
 
 .para {
@@ -214,7 +213,7 @@ span {
 .extra-container p {
     margin-left: 30px;
     margin-top: 10px;
-    color: cyan;
+    color: #389BD8;
     width: 550px;
     text-align: justify;
     padding-top: 30px;
