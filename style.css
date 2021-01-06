@@ -41,7 +41,7 @@ section {
 /* ......FIRST SECTION START...... */
 
 .top-banner {
-    height: 750px;
+    height: 800px;
 }
 
 .half-width {
@@ -229,7 +229,7 @@ span {
 .bottom-banner {
     width: 100%;
     height: 150px;
-    background-image: url("/images/banner.png");
+    background-image: url("./images/banner.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50%;
