@@ -108,6 +108,7 @@ h2 {
     background-color: #edf1fe;
     text-align: center;
     padding-top: 50px;
+    overflow: hidden;
 }
 
 .middle-banner h2 {
@@ -120,6 +121,7 @@ h2 {
     width: 80%;
     margin: 0px auto;
     text-align: center;
+    overflow: hidden;
 }
 
 .left img {
