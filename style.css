@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+section {
+    padding-bottom: 150px;
+}
+
+
+/* ............NAVBAR START............. */
+
+.navbar {
+    width: 100%;
+}
+
+.nav1 {
+    width: 70%;
+    float: left;
+}
+
+.nav2 {
+    width: 30%;
+    float: right;
+}
+
+
+
+.navbar a {
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+
+/* .........NAVBAR END........... */
