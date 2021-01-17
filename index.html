@@ -5,24 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reponsive.css">
 </head>
 <body>
 
 
     <!--. ..........................NAVBAR START........................... -->
 
-    <div class="navbar">
-        <div class="nav1"></div>
-        <div class="nav2">
-            <br>
-            <a href="#">About</a>
-            <a href="#">Work</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-        </div>
-    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg bg bg-primary navbar-light fixed-top">
+            <div class="container">
+              <a class="navbar-brand logo-div" href="#">
+                  <img src="images/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#about">About</a>
+                  <a class="nav-link" href="#work">Work</a>
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                  <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>   
+    </header>
+
 
     <!--. ..........................NAVBAR END........................... -->
 
@@ -32,23 +45,38 @@
 
     <!-- ..........................FIRST SECTION START.................................-->
 
-    <section class="top-banner">
-        <div class="half-width">
-            <h1 id="hello">HELLO, THIS IS</h1>
-            <h1 id="name">RUMAN ISLAM</h1>
-            <P id="veteran">A full-stack veteran web designer that create your powerfull website. You can hire me as your web worrior.</P>
-            <a class="link-button" href="#">Hire Me</a>
+    <section class="container top-banner">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="heading-info">
+                    <h2>HELLO, THIS IS</h2>
+                    <h1 class="text-primary">RUMAN ISLAM</h1>
+                    <P>A full-stack veteran web designer that create your powerfull website. You can hire me as your web worrior.</P>
+                    <a class="btn btn-success" href="#">Hire Me</a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="heading-img">
+                    <img class="img-fluid" src="./images/profile2.png" alt="">
+                </div>
+            </div>
         </div>
-        <div class="half-width">
-            <img src="./images/profile2.png" alt="">
-        </div>
-        <div class="half-width">
-            <img src="./images/profile.png" alt="">
-        </div>
-        <div class="half-width">
-            <h2>About</h2>
-            <p id="veteran-2">Hi! I am Ruman Islam, a web designer/developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself into web design/development since 2007. I enjoy creating beautifully designed, intuitive and functional websites.</p>
-            <a class="link-button" href="#">Download CV</a>
+    </section>
+
+    <section class="container middle-banner" id="about">
+        <div class="row d-flex">
+            <div class="col-lg-6 col-md-6 order-md-1 order-sm-2 -first-card">
+                <div class="heading-img">
+                    <img class="img-fluid" src="./images/profile.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 order-md-2 order-sm-1 last-card">
+                <div class="about mt-5">
+                    <h2>About</h2>
+                    <p>Hi! I am Ruman Islam, a web designer/developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself into web design/development since 2007. I enjoy creating beautifully designed, intuitive and functional websites.</p>
+                    <a class="btn btn-success" href="#">Download CV</a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -62,30 +90,43 @@
 
     <!-- ..........................SECOND SECTION START.......................... -->
 
-    <section class="middle-banner">
-        <h2><span>LATEST</span> WORKING PROJECT</h2>
-    
-            <div class="container">
-                <div class="left">
-                    <img src="./images/image2.png" alt="">
-                    <h3 class="heading">Power-X-gym</h3>
-                    <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quo error quis.</p>
-                </div>
-            
-            
-                <div class="center">
-                    <img src="./images/image1.png" alt="">
-                    <h3 class="heading">Creative Agency</h3>
-                    <p  class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quo error quis.</p>
-                </div>
-            
-            
-                <div class="right">
-                    <img src="./images/image.png" alt="">
-                    <h3 class="heading">Hard Rock Music</h3>
-                    <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quo error quis.</p>
+    <section class="container third-banner" id="work">
+        <h2 class="text-center mb-5"><span>LATEST</span> WORKING PROJECT</h2>
+        <div class="row container">
+            <div class="col-lg-4 col-md-4">
+                <div class="crd-content">
+                    <div class="pb-3">
+                        <img class="img-fluid" src="/images/image2.png" alt="">
+                    </div>
+                    <div>
+                        <h4>Power-X-gym</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quo error quis.</p>
+                    </div>
                 </div>
             </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="crd-content">
+                    <div class="pb-3">
+                        <img class="img-fluid" src="/images/image1.png" alt="">
+                    </div>
+                    <div>
+                        <h4>Creative Agency</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quo error quis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="crd-content">
+                    <div class="pb-3">
+                        <img class="img-fluid" src="/images/image.png" alt="">
+                    </div>
+                    <div>
+                        <h4>Hard Rock Music</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quo error quis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- ............................SECOND SECTION END....................... -->
@@ -95,13 +136,7 @@
     <!-- ..........................EXTRA SECTION START............................... -->
     
 
-    <section class="extra-section">
-        <div class="extra-container">
-            <p>For the past 16 years, I've been developing applications for the web using mostly PHP. I do this for a living and love what I do as every day there is something new and exciting to learn.
-             In my spare time, the web development community is a big part of my life. Whether teaching code to kids at a local school, managing online programming groups and blogs or attending a conference, I find keeping involved helps me stay up to date.
-            This is also my chance to give back to the community that helped me get started, a place I am proud to be part of.</p>
-        </div>
-    </section>
+    
 
     <!-- ..........................EXTRA SECTION END............................... -->
 
@@ -109,15 +144,19 @@
 
     <!-- ............................THIRD SECTION START .......................-->
 
-    <section class="bottom-banner">
-           <div class="background">
-            <div class="inquiry">
-                <h4>WORK INQUIRY</h4>
+    <section class="container" id="portfolio">
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center align-items-center">
+                <div class="inquiry-div d-flex mt-5 mb-5 justify-content-center align-items-center">
+                    <div class="work-inquiry ms-5">
+                        <h2><span>WORK INQUIRY</span></h2>
+                    </div>
+                    <div class="lets-chat p-5">
+                        <a class="btn btn-primary" href="#">Let's Chat</a>
+                    </div>
+                </div>
             </div>
-            <div class="chat">
-                <a href="#">Let's Chat</a>
-            </div>
-           </div>
+        </div>
     </section>
 
     <!-- .............................THIRD SECTION END........................... -->
@@ -131,18 +170,20 @@
 
     <!-- ................................FOOTER START.......................... -->
 
-    <section class="footer">
+    <section class="footer mt-5 d-flex justify-content-center align-items-center" id="contact">
 
-        <div class="footer-container">
+        <div class="footer-container text-center justify-content-center align-items-center">
             <h3>STAY CONNECTED</h3>
             <h2>rumanislam@gmail.com</h2>
-            <img src="./images/icon.png" alt="">
-            <img src="./images/icon2.png" alt="">
-            <img src="./images/icon3.png" alt="">
+            <img width="50px" class="img-fluid" src="./images/icon.png" alt="">
+            <img width="50px" class="img-fluid" src="./images/icon2.png" alt="">
+            <img width="50px" class="img-fluid" src="./images/icon3.png" alt="">
         </div>
 
-    </section>
+    </section> <br>
 
     <!-- ..................................FOOTER END................................... -->
+
+    <script src="bootstrap.min.js"></script>
 </body>
 </html>

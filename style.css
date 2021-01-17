@@ -1,297 +1,69 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
-}
-section {
-    padding-bottom: 150px;
 }
 
-
-/* ............NAVBAR START............. */
-
-.navbar {
-    width: 100%;
+section{
+    margin-top: 100px;
 }
 
-.nav1 {
-    width: 70%;
-    float: left;
+p{
+    color: dimgray;
 }
 
-.nav2 {
-    width: 30%;
-    float: right;
+span{
+    color: #FF6347;
 }
 
+header{
+    box-shadow: 0px 3px 5px dimgray;
+}
 
-
-.navbar a {
-    text-decoration: none;
-    text-align: right;
-    color: black;
+header a{
     font-weight: 700;
-    margin-left: 15px;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
-
-/* .........NAVBAR END........... */
-
-
-
-/* ......FIRST SECTION START...... */
-
-.top-banner {
-    height: 1082px;
-    width: 100%;
+.heading-info{
+    margin-top: 100px;
 }
 
-.half-width {
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding: 2%;
-    overflow: hidden;
-}
-
-.half-width img {
-    width: 100%;
-}
-
-#hello {
-    color: #0070F7;
-    font-size: 45px;
-}
-
-#name {
-    color: #002540;
+.heading-info h1{
     font-size: 50px;
-    margin-top: -40px;
-    margin-bottom: -40px;
-}
-
-h2 {
-    font-size: 40px;
-    color: #353537;
-}
-
-#veteran {
-    margin-top: 64px;
-    margin-bottom: 20px;
-    color: dimgray;
-}
-
-#veteran-2 {
-    color: dimgray;
-    margin-bottom: 20px;
-}
-
-.link-button {
-    text-decoration: none;
-    background: linear-gradient(135deg,deeppink, orange);
-    padding: 10px 20px;
-    color: white;
-    border-radius: 50px;
     font-weight: 700;
 }
 
-/* ..........FIRST SECTION END.............. */
+.heading-info h2{
 
-
-
-
-
-
-/* ..........SECOND SECTION START.......... */
-
-.middle-banner {
-    height: 400px;
-    width: 100%;
-    background-color: #edf1fe;
-    text-align: center;
-    padding-top: 50px;
-    overflow: hidden;
-}
-
-.middle-banner h2 {
-    text-align: center;
     font-size: 30px;
-
+    color: goldenrod;
 }
 
-.container {
-    width: 80%;
-    height: 400px;
-    margin: 0px auto;
-    text-align: center;
-}
-
-.left img {
-    width: 100%;
-}
-
-.center img {
-    width: 100%;
-}
-
-.right img {
-    width: 100%;
-}
-
-.left {
-    width: 28%;
-    float: left;
-    background-color: white;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 2px 4px 30px gray
-}
-
-.center {
-    width: 28%;
-    display: inline-block;
-    background-color: white;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 2px 4px 30px gray
-}
-
-.right {
-    width: 28%;
-    float: right;
-    background-color: white;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 2px 4px 30px gray
-}
-
-.para {
-    text-align: left;
-    font-size: 14px;
-    margin-left: 15px;
-}
-
-.heading {
-    text-align: left;
-    margin: 0px 15px 0px;
-    font-size: 25px;
-}
-
-span {
-    color: tomato;
+.third-banner h4{
+    color: #FF6347;
 }
 
 
-
-/* ...............SECOND SECTION END............ */
-
-
-
-/* ..........EXTRA SECTION START......... */
-
-.extra-section {
-    width: 100%;
-    height: 250px;
-    background: linear-gradient(145deg, #5F35B1, #379ED9);
-    overflow: hidden;
-}
-
-.extra-container {
-    width: 60%;
-    height: 300px;
-    margin: auto;
-    background-color: black;
-    margin-top: 50px;
-    border-radius: 10px;
-    background-image: url("./images/poster.jpg");
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 200px 300px;
-    overflow: hidden;
-    box-shadow: 5px 5px 25px black;
-}
-
-.extra-container p {
-    margin-left: 30px;
-    margin-top: 10px;
-    color: #389BD8;
-    width: 550px;
-    text-align: justify;
-    padding-top: 30px;
-}
-
-
-/* .......EXTRA SECTION END........ */
-
-
-
-/* ........THIRD SECTION START ......... */
-
-.bottom-banner {
-    width: 100%;
-    height: 150px;
-    background-image: url("./images/banner.png");
+.inquiry-div{
+    height: 100px;
+    background-image: url("/images/banner.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 50%;
+    background-size: 100%;
 }
 
-.inquiry {
-    width: 35%;
-    float: left;
-    height: 50px;
-    margin: 85px 0px 0px 86px;
-    color: tomato;
-    font-weight: 700;
-    font-size: 30px;
+.inquiry-div .work-inquiry h2{
+    font-size: 16px;
 }
 
-.chat {
-    width: 25%;
-    float: right;
-    height: 50px;
-    margin: 135px 0px 0px 86px;
-    font-weight: 700;
-    font-size: 15px;
+.inquiry-div .lets-chat a{
+    font-size: 10px;
 }
 
-.chat a {
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 10px 10px;
-    background: linear-gradient(45deg, deeppink, purple );
-}
-
-.background {
-    width: 50%;
-    margin: 0px auto;
-}
-
-/* .........THIRD SECTION END............ */
-
-
-
-
-
-
-
-/* ............FOOTER START.......... */
-
-.footer {
-    width: 100%;
-}
-
-.footer-container {
-    width: 60%;
-    height: 100px;
-    margin: auto;
-    text-align: center;
-}
-
-.footer-container img {
-    width: 50px;
-    height: 50px;
+.work-inquiry h2{
+    margin-top: 10px;
 }
 
 
-/* ............FOOTER END.......... */

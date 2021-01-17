@@ -1,0 +1,46 @@
+@media(max-width: 992px){
+
+    p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 768px){
+    section{
+        margin-top: 20px;
+    }
+    h4{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .top-banner, .middle-banner{
+        display: flex;
+        justify-content: center;
+    }
+
+    .third-banner{
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 576px){
+    section{
+        margin-top: 20px;
+    }
+    .top-banner, .middle-banner img {
+        width: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .first-card{
+        order: 2;
+    }
+    .last-card{
+        order: 1;
+    }
+}
