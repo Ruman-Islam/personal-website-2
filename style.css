@@ -47,7 +47,8 @@ header a{
 
 
 .inquiry-div{
-    height: 100px;
+    width: 600px;
+    height: 200px;
     background-image: url("./images/banner.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -55,11 +56,11 @@ header a{
 }
 
 .inquiry-div .work-inquiry h2{
-    font-size: 16px;
+    font-size: 40px;
 }
 
 .inquiry-div .lets-chat a{
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .work-inquiry h2{
